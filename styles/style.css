@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2? familia = Abierto + Sans: peso @ 300 &family= Shadows+Into+Light & display=swap');
+   * {
+       margin:0;
+       padding:0;
+   } 
+   
+body{
+    
+    
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    
+}
+.contenedorTitulo   {
+    font-family:'Shadows Into Light', cursiva; ;
+    color: rgb(243, 243, 243);
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    background-color: rgb(251, 251,251,0.3);
+}
+#fondo  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    
+    background-image: url(../imagenes/raza-de-perro-pastor-aleman-t.jpg);
+}
+#Titulo{
+    color: blanchedalmond;
+    display: flex;
+    width: 100%;
+}
+#Titulo h1{
+    float: left;
+ }
+.contenedorNav      {
+    width: 100%;
+    margin: auto;
+    font-family:'Shadows Into Light', cursiva; 
+    font-size: 22px;
+   
+
+}
+#cabeza {
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgb(149,164, 165,0.5);
+    padding: 5px;
+}
+
+#cabeza h1{
+    float: left;
+
+}
+.Menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+.Menu li    	{
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+.Menu li ul{
+    display: none;
+    position: absolute;
+}
+.Menu li:hover ul{
+    display: block;
+    
+}
+li ul li{
+    height: -145;
+    top: 0px;
+    padding: 10px;
+}
+.Menu a{
+    color: white;
+    text-align: none;
+    padding: 5px 10px;
+}
+.Menu a:hover  {
+    background-color: rgba(251,251,251,0.5);
+}
+.contenedorPrincipal    {
+    font-weight: 600;
+    font-size: 20px;
+}
+.contenedorPrincipal a{
+    color: white;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px;
+}
+#Principal  {
+    color: white;
+    margin: auto;
+    font-family:'Open Sans', sans-serif;
+    position: relative;
+    padding: 10px;
+    top: 75%;
+}
+.contenedorPrincipal a:hover      	{
+    background-color: rgba(251,251,251,0.5);
+    display: block;
+}
+.fondo  {
+    background-image:url(../imagenes/miscota-shutterstock_338038355.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+   
+}
+
+article h2  {
+    font-family:'Shadows Into Light', cursiva; ;
+    font-size: 60px;
+    margin-left: 700px;
+    width: 100%;
+        
+}
+.curiosidades   {
+    display: none;
+    color: rgb(203, 192, 223);
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+article h2:hover ol {
+    display:block; 
+    
+    
+}
+video  {
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+main    {
+    margin-top: 515px;
+    
+     }
+
+table img   {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+   
+}
+table img:hover     {
+    width: 500px;
+    height: 300px;
+    margin-top: 0px;
+    position: relative;
+  
+
+}
+footer  {
+    float:right ;
+    font-family:'Shadows Into Light', cursiva; ;
+}
